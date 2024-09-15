@@ -1,0 +1,89 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d3cdcd;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style for the <ul> */
+ul {
+    list-style-type: none;  /* Remove bullets */
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the <li> */
+ul li {
+    margin: 0 15px;  /* Space between items */
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer; /* Add a pointer to show it's clickable */
+}
+
+/* Style for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style for the main content */
+main {
+    background-color: rgb(199, 211, 211);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Style for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style for the button */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
